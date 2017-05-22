@@ -54,7 +54,7 @@ email: vasudev2111@gmail.com
 authors:
     vasudev:
         name: Vasudev Bongale
-        bio: A Data Savvy
+        bio:
         external-image: false
         picture: assets/images/profile.jpg
         twitter: Vasudev_bongale
