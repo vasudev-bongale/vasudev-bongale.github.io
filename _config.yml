@@ -1,6 +1,6 @@
 # main text of home
-name: The Tech Tales
-bio: A Tech Blog - Vasudev Bongale
+name: Vasudev Bongale
+bio: The Tech Tales
 
 # twitter summary info
 description: A blog about technology snaps
@@ -22,7 +22,7 @@ url: https://vasudev-bongale.github.io
 permalink: /:categories/:year/:month/:day/:title
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-132357129-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
