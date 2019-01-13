@@ -25,7 +25,10 @@ layout: compress
     </style>
 
 </head>
-<body>
+<body 
+    {% if page.title != "About" %}    
+        style="background: url(assets/images/background.jpg) no-repeat; background-size: cover;"
+    {% endif %}    >
 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
