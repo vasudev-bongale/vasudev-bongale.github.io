@@ -9,6 +9,7 @@ tag:
 - India
 category: blog
 author: vasudev
+type: travel
 hidden: true
 description: A journey into the mighty himalayas
 ---

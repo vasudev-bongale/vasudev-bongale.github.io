@@ -7,6 +7,7 @@ tag:
 - linux
 - sudo
 category: blog
+type: tech
 author: vasudev
 description: The obscure facts about sudo
 ---

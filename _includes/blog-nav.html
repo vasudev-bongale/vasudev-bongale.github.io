@@ -1,0 +1,31 @@
+<nav class="nav-home">
+        <ul class="list">
+                <li class="item">
+                        <a class="link" href="{{ site.url }}/blog">All</a>
+                </li>
+                
+                {% if site.techblog == true %}
+                    <li class="item">
+                        <a class="link" href="{{ site.url }}/blog/tech">Tech</a>
+                    </li>
+                {% endif %} 
+        
+                {% if site.travelblog == true %}
+                        <li class="item">
+                            <a class="link" href="{{ site.url }}/blog/travel">Travel</a>
+                        </li>
+                {% endif %}
+        
+                {% if site.lifeblog == true %}
+                        <li class="item">
+                            <a class="link" href="{{ site.url }}/blog/life">Life</a>
+                        </li>
+                {% endif %}
+                
+                {% if site.bookblog == true %}
+                        <li class="item">
+                            <a class="link" href="{{ site.url }}/blog/books">Books</a>
+                        </li>
+                {% endif %}
+        </ul>
+</nav>

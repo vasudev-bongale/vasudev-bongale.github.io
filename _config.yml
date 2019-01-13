@@ -75,6 +75,12 @@ books: false
 about: true
 blog: true
 
+# blog categories
+travelblog: true
+lifeblog: true
+techblog: true
+bookblog: true
+
 # do you want to show the "read time" of the posts?
 read-time: true
 
