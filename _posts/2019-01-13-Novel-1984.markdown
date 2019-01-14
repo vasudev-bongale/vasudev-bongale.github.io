@@ -9,11 +9,12 @@ tag:
 - war
 category: blog
 author: vasudev
-type: book
+type: books
 hidden: false
 description: A Review on book 1984
 ---
-![1984](https://vasudev-bongale.github.io/assets/images/1984.jpeg)
+
+<div style="text-align:center"><img src="https://vasudev-bongale.github.io/assets/images/1984.jpeg" /></div>
 
 The book 1984 one of the best pieces in its genre. The novel is set in a dystopian world in a totalitarian regime, monitoring every move and thoughts of people. The ideas depicted throughout, with Winston Smith as protagonist are incredible.
 
