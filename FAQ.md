@@ -1,3 +1,7 @@
+---
+sitemap:
+  exclude: "yes"
+---
 # FAQ:
 
 - Article: How to Install Jekyll - by [Arti Annaswamy](https://github.com/aannasw). [Part 1](https://artiannaswamy.com/build-a-github-blog-part-1) and [Part 2](https://artiannaswamy.com/build-a-github-blog-part-2)
