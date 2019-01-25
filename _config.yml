@@ -16,7 +16,8 @@ resume: false
 resume-external: false
 resume-url: assets/resume/resume.pdf
 
-url: https://vasudev-bongale.github.io
+url: https://vasudevb.com
+eurl: https://vasudevb.com
 # your url: https://USERNAME.github.io
 
 permalink: /:categories/:year/:month/:day/:title
