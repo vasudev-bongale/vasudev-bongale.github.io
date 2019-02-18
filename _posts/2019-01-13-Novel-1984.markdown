@@ -14,7 +14,7 @@ hidden: false
 description: A Review on book 1984
 ---
 
-<div style="text-align:center"><img src="https://vasudev-bongale.github.io/assets/images/1984.jpeg" /></div>
+<div style="text-align:center"><img src="https://vasudevb.com/assets/images/1984.jpeg" /></div>
 
 The book 1984 is one of the best pieces in its genre. The novel is set in a dystopian world ruled by totalitarian regime, monitoring every move and thoughts of people. The ideas depicted throughout, with Winston Smith as protagonist are incredible.
 

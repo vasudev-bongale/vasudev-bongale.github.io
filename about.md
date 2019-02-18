@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-<img src="https://vasudev-bongale.github.io/assets/images/bg.jpg">
+<img src="https://vasudevb.com/assets/images/bg.jpg">
 
 #### Hello there!
 
