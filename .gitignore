@@ -4,3 +4,6 @@ _site/
 Gemfile.lock
 .jekyll-metadata
 _config-dev.yml
+
+\#*#
+*~
