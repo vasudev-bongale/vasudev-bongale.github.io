@@ -18,7 +18,7 @@ I like systems, especially Linux, and data.
 <br/>
 Apart from spending a lot of time over a computer screen, I love travelling, reading books and learning something new. Love being adventurous and leading life with full energy and enthusiasm. 
 
-Please refer to my Resume/CV for other details. (Shortly)
+Please refer to my <a href="https://vasudevb.com/assets/resume/resume.pdf">Resume/CV</a> for other details.
 
 ### Contact Me:
 
