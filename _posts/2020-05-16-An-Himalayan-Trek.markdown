@@ -15,7 +15,7 @@ hidden: false
 description: A journey into the mighty himalayas
 ---
 
-> Sometimes it's the journey that teaches you a lot about your destination - Drake
+> Focus on the journey, not the destination. Joy is found not in finishing an activity but in doing it - Greg Anderson
 
 I once took a journey to the top of one of the peaks of The Mighty Himalayas and I can not agree more. Even after several years after that adventure, some first experiences come back vividly with such impeccable clarity. Although I really wanted to write those memories down, I evaded that for a long time until recently when I read a book - *Out in the Silence: After the crash* by Eduardo Strauch where he describes his 72 days ordeal being stuck in Andes Mountains and their eventual rescue. It kindled the rivulets of isloated episdoes into this small pond of memories.
 
@@ -49,9 +49,9 @@ Besides these, I get excited to talk about few other incidents. During our trek 
 
 And finally, I cannot complete this without quoting our local guide. Whenever we slacked and decided to take longer rests during hike, we heard him holler his motivating statement from far up ahead: "Rukna Mana Hai, Thakna Guna Hai" (Its in Hindi, which roughly translates to - Stopovers are forbidden and exhaustion is crime!)
 
-Let me go back in time when my friend and I sat in starbucks ruminating over choosing a trek from so many options that are thrown at you. As beginners, one vacillates because of two things. Most of them look for higher altitudes, have a bit of fun in snow, but at the same time, they are not confident on their preparation and the ability of their body to cope up with the harsh or rather different envionmental conditions. You end up calling trek leaders, friends for suggestions, sit up all night thinking which one to choose and its funny, because the next day somehow you will get all negative thoughts about that same trek!. So, To all the future enthusiasts out there, here I what I say. Trust your instincts, go where ``YOU'' want to explore, of course within your comfort limits, and no matter what you chose, the Mountains promise you that you will never regret it. There is no wrong choice or right altitude. Each and every part of those Himalayas are remarkable bundles of adventure.
+Let me go back in time when my friend and I sat in starbucks ruminating over choosing a trek from so many options that are thrown at you. As beginners, one vacillates because of two things. Most of them look for higher altitudes, have a bit of fun in snow, but at the same time, they are not confident on their preparation and the ability of their body to cope up with the harsh or rather different envionmental conditions. You end up calling trek leaders, friends for suggestions, sit up all night thinking which one to choose and its funny, because the next day somehow you will get all negative thoughts about that same trek!. So, To all the future enthusiasts out there, here I what I say. Trust your instincts, go where *you* want to explore, of course within your comfort limits, and no matter what you chose, the Mountains promise you that you will never regret it. There is no wrong choice or right altitude. Each and every part of those Himalayas are remarkable bundles of adventure.
 
-The Himalayan stories grow countless and each of them is unique in its own way. For me, it was a special and dear one, I decided to jot it down those unforgettable moments in this form to share the joy by inspiring others to embark on such a journey.
+The Himalayan stories grow countless and each of them is unique in its own way. For me, it was a special and dear one, I decided to jot down those unforgettable moments in this form to share the joy by inspiring others to embark on such a journey.
 
 Thanks! I had fun writing this and hope you enjoyed this too!
 Comment your best moments in one of your adventures :)
