@@ -17,11 +17,10 @@ description: A journey into the mighty himalayas
 
 > Sometimes it's the journey that teaches you a lot about your destination - Drake
 
-Well, I once took a journey to the top of one of the peaks of The Mighty Himalayas and I can not agree more. For a long while, I had been yearning to do this, and you know, what they say -
+I once took a journey to the top of one of the peaks of The Mighty Himalayas and I can not agree more. Even after several years after that adventure, some first experiences come back vividly with such impeccable clarity. Although I really wanted to write those memories down, I evaded that for a long time until recently when I read a book - **Out in the Silence: After the crash** by Eduardo Strauch where he describes his 72 days ordeal being stuck in Andes Mountains and their eventual rescue. It kindled the rivulets of isloated episdoes into this small pond of memories.
 
-> ''Sometimes all you need is a great friend and thirst for adventure".
 
-Pondering over a hot coffee, I took an abrupt pause during an evening walk with my close friend, when I discovered that he shared a wish for the same adventure. It was a sheer stroke of serendipity! Within no time, the itinerary was formed and we were already lost in reverie. There are many professional communities out there working hard to take you on a memorable hike in the Himalayas and we chose [IndiaHikes](https://indiahikes.com/). We hiked to the top of Kedarkantha Peak (12500 feet) during first week of May 2018 which engraved in me, an undelible snapshot of those beautiful peaks stretching way up in the sky all around, with the winds singing paean to their might.
+Af first, it was just a remote thought. Pondering over a hot coffee, I took an abrupt pause during an evening walk with my close friend, when I discovered that he shared a wish for the same adventure. It was a sheer stroke of serendipity! Within no time, the itinerary was formed and we were already lost in reverie. There are many professional communities out there working hard to take you on a memorable hike in the Himalayas and we chose [IndiaHikes](https://indiahikes.com/). We hiked to the top of Kedarkantha Peak (12500 feet) during first week of May 2018 which engraved in me, an undelible snapshot of those beautiful peaks stretching way up in the sky all around, with the winds singing paean to their might.
 
 No great feat can be done without necessary preparation, especially as a first timer ascending into higher altitudes with backpack and extended hours of trekking. The routine of physical activity that started around 40 days earlier soon became a part of us staging both our body and mind to those 6 days of trekking.
 
