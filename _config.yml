@@ -1,6 +1,7 @@
 # main text of home
 name: Vasudev Bongale
-bio: Exploring Life with a Busy Keyboard
+bio: A Book Dragon Staring At Screen 
+role: SRE @LinkedIn
 
 # twitter summary info
 description: A personal blog
@@ -8,7 +9,7 @@ description: A personal blog
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/avatar.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -36,7 +37,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: Vasudevb93
+# twitter: Vasudevb93
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -48,16 +49,16 @@ github: vasudev-bongale
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: vasudev.bongale
+# medium: vasudev.bongale
 # vimeo: myvimeo
-email: vasudev2111@gmail.com
+# email: vasudev2111@gmail.com
 
 authors:
     vasudev:
         name: Vasudev Bongale
         bio:
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/avatar.png
         twitter: Vasudev_bongale
 
 # do you want a larger site? change the option below
