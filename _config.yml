@@ -1,6 +1,7 @@
 # main text of home
 name: Vasudev Bongale
-bio: A Book Dragon Staring At Screen 
+bio: A Book Dragon Staring At Screen. 
+longbio: I am an explorative and curious learner. I like Linux and work on systems at Scale.
 role: SRE @LinkedIn
 
 # twitter summary info
@@ -74,7 +75,7 @@ width: large
 books: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: true
 
 # blog categories
