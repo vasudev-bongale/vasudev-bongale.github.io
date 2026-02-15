@@ -8,6 +8,7 @@ markdown: kramdown
 
 exclude:
   - README.md
+  - DEVELOPMENT.md
   - Gemfile
   - Gemfile.lock
   - vendor
