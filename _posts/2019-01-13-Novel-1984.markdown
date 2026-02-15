@@ -2,30 +2,25 @@
 title: "1984"
 layout: post
 date: 2019-01-13 18:00
-headerImage: false
 tag:
 - dystopia
 - novel
 - war
-category: blog
-author: vasudev
-type: books
-hidden: false
-description: A Review on book 1984
+description: A review of George Orwell's 1984
 ---
 
-<div style="text-align:center"><img src="https://vasudevb.com/assets/images/1984.jpeg" /></div>
+<div style="text-align:center"><img src="/assets/images/1984.jpeg" /></div>
 
-The book 1984 is one of the best pieces in its genre. The novel is set in a dystopian world ruled by totalitarian regime, monitoring every move and thoughts of people. The ideas depicted throughout, with Winston Smith as protagonist are incredible.
+1984 is one of the finest works in its genre. The novel is set in a dystopian world ruled by a totalitarian regime that monitors every move and thought of its people. The ideas depicted throughout, with Winston Smith as the protagonist, are extraordinary.
 
 > BIG BROTHER IS WATCHING YOU!
 
-The "Party" led by the colossus, THE BIG BROTHER, forms the central pivot for all the good, the fear, the obedience that can be attributed to. Anything past happened in this world is either recorded inside a person as thoughts and outside, in the forms of words. An appealing idea to me was that if the words are altered to change the past and if the large mass of people collude to make one grow doubtful of  ones thoughts, you can change the past itself. Not only this, the Party also controlled every content that is ever read and distributed to the lower class, proles they call them. Four divisions of the Party, Ministry of Love, Ministry of Truth, Ministry of Peace, Ministry of Plenty dealt quite an opposite aspect of the society. The *Telescreens* painstakingly observes the Party members to check if any Party member derails from the propaganda, if one did, it was a *Thoughtcrime*. Ironically, even a small kid betrays his own family to the Thoughtpolice and the family is proud of it. A language, called *Newspeak* is invented to restrict the ideas that one can present by limiting its vocabulary.
+The "Party," led by the omnipresent Big Brother, forms the central pivot for all the good, the fear, and the obedience in this world. Everything that has happened in the past is recorded either inside a person as thoughts, or outside, in the form of words. What struck me most was the idea that if words are altered to change the past, and if the masses collude to make one doubt one's own thoughts, you can change the past itself. The Party controlled every piece of content distributed to the lower class, the *proles* as they call them. Its four ministries (Love, Truth, Peace, Plenty) each dealt with the opposite of what their names suggested. The *Telescreens* vigilantly observed Party members for any deviation from propaganda; if one strayed, it was a *Thoughtcrime*. Ironically, even children betrayed their own families to the Thought Police, and the family was proud of it. A language called *Newspeak* was invented to restrict the very ideas one could express by shrinking the vocabulary.
 
-Winston Smith, who worked in the Truth department, where he worked on modifying contents from newspapers and articles, to alter the past, always believed that a better world existed and it was much different from the current world of fear, violence and slavery. He follows his ideas, finding evidences, falling in love, surprisingly finding a place with no telescreen, only to realize later that he was being played all along and all that he met and cultivated in his mind was planned. After being caught, he undergoes a harsh treatment in a cell with no light to gauge the time. The interrogations and punishment are intended to cure him and remove his false thoughts, until he starts to belive that -
+Winston Smith worked in the Ministry of Truth, modifying newspapers and articles to alter the historical record. Yet he always believed that a better world had existed, one different from this world of fear, violence, and slavery. He follows his convictions, finds evidence, falls in love, and discovers a place with no telescreen, only to realize later that he was being played all along, and everything he had found and cultivated in his mind was orchestrated. After being caught, he endures harsh treatment in a cell with no light to gauge time. The interrogations and punishment are intended to *cure* him, to strip away his false thoughts, until he starts to believe that
 
 > Two plus Two makes Five.
 
-Even after a great physical and mental torture, Winston still believed in his heart that they could not tear his inner self apart and that he was true to her love, Julia. Eventually, his words betray him in a dream. The book conceptualizes that most even the most loyal and honest can never tolerate a level of physical pain and that he would betray when it comes to certain aspects in his life that is most afraid of. He is released with a thought that he would love Big Brother one day. In the end, Winston no longer feels the connection to Julia and dreams of looking at the Big Brother and his thoughts suggesting that he loved him, that in a way illustrates the Victory of the Party over individuality.
+Even after immense physical and mental torture, Winston still believed in his heart that they could not tear his inner self apart, that he remained true to his love, Julia. Eventually, his words betray him in a dream. The book presents the idea that even the most loyal and honest person cannot withstand a certain threshold of physical pain, that anyone would betray what they hold dearest when confronted with what they fear most. He is released with the expectation that he would love Big Brother one day. In the end, Winston no longer feels any connection to Julia. He dreams of looking at Big Brother, and his thoughts suggest that he loves him, illustrating, in the most devastating way, the victory of the Party over individuality.
 
-> The object of power is power. Power is in inflicting pain and humiliation - George Orwell, 1984
+> The object of power is power. Power is in inflicting pain and humiliation. - George Orwell, *1984*

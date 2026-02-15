@@ -1,49 +1,40 @@
 ---
-layout: page
+layout: default
 ---
-
-{% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }} width">
-{% endif %}
-
-<h1 class="title">{{ page.title }}</h1>
-
-<span class="date">
-    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
-    {% if site.read-time %} - {% include read-time.html %}{% endif %}
-</span>
-
-{% if site.show-tags %}
-    <div class="post-tags">
-        {% for tag in page.tags %}
-            <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
+<div class="subpage">
+  <a href="/" class="back-link"><img src="/assets/images/avatar.png" alt="" class="icon"> vasudev-bongale</a>
+  <article>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <div class="post-date">{{ page.date | date: "%Y-%m" }}</div>
+      {% if page.tag.size > 0 %}
+      <div class="post-tags">
+        {% for tag in page.tag %}<span>{{ tag }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </header>
+    <div class="post-content">
+      {{ content }}
     </div>
-{% endif %}
-
-{{content}}
-
-{% if site.post-advance-links contains page.category %}
-    <div class="blog-navigation">
-        {% if page.previous.url %}
-            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-        {% else %}
-            <a class="prev"></a>
-        {% endif %}
-        {% if page.next.url %}
-            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-        {% endif %}
+    <nav class="post-nav">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}">{{ page.next.title }} →</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </nav>
+  </article>
+  <footer class="footer">
+    <span>{{ site.name }}</span>
+    <div>
+      <a href="/writing">writing</a>
+      {% if site.github %}<a href="https://github.com/{{ site.github }}">github</a>{% endif %}
+      {% if site.linkedin %}<a href="https://linkedin.com/in/{{ site.linkedin }}">linkedin</a>{% endif %}
     </div>
-{% endif %}
-
-{% if site.related %}
-    {% include related.html %}
-{% endif %}
-
-{% if site.show-author %}
-    {% include author.html %}
-{% endif %}
-
-{% if site.disqus.categories contains page.category %}
-    {% include disqus.html %}
-{% endif %}
+  </footer>
+</div>

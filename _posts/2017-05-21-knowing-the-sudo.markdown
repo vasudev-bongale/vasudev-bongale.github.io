@@ -1,22 +1,18 @@
 ---
-title: "Knowing sudo"
+title: "Knowing the Sudo"
 layout: post
 date: 2017-05-21 18:48
-headerImage: false
 tag:
 - linux
 - sudo
-category: blog
-type: tech
-author: vasudev
 description: The obscure facts about sudo
 ---
 
-Among the most frequent commands that a Linux user uses is the "sudo" command.
+Among the most frequently used commands in Linux is `sudo`.
 
-Any ***permission denied*** message on the CLI effortlessly tickles us to append sudo and feel powerful. Here are some of the concepts around the 'SUDO' illustrating beyond its ability to provide elevated permissions, that one should know for efficient use and to play safe with it.
+Any ***permission denied*** message on the CLI instinctively tickles us to prepend sudo and feel powerful. But there's more to it than just elevated permissions. Here are some concepts one should know for efficient use and to play safe with it.
 
-Lets look at a simplest example of dealing with a variable.
+Let's look at a simple example involving environment variables.
 
 ```bash
 [vagrant@localhost ~]# export DUMMY=dummy
@@ -26,9 +22,9 @@ DUMMY=dummy
 
 [vagrant@localhost ~]#
 ```
-Different settings or contexts switches that takes place in the background along with invocation of sudo could potential be overlooked, thus deviating from troubleshooting any issue with your expected workflow.
+Different settings and context switches that take place in the background when invoking sudo can easily be overlooked, leading you astray while troubleshooting.
 
-As you can see below, running node as sudo might invoke a totally different environment, whereas the user would expect 'qa' value to the variable.   
+As you can see below, running node as sudo invokes a different environment entirely. The user would expect the `SERVICE_ENV` variable to be `qa`, but it's undefined.
 
 ```bash
 [vagrant@localhost ~]# node
@@ -45,7 +41,7 @@ undefined
 
 #### Ways of becoming root
 
-There are multiple ways one can become a root user in Unix based system.
+There are multiple ways to become root on a Unix-based system.
 1. sudo -s
 2. su
 3. su -
@@ -53,17 +49,16 @@ There are multiple ways one can become a root user in Unix based system.
 5. sudo su -
 6. sudo su
 
-Ok! Now, what is 'su' !?
+Ok! Now, what is `su`?
 
->***su*** can be equivalently read as 'switch user', helps you to run a command as another user (usually root)
+>***su***, or "switch user", lets you run a command as another user (usually root)
 
 ## Differences between *sudo* and *su*
-* 'su' requires you to enter the password of the target user, whereas sudo requires the password of user who invoked 'sudo'
-As is it clear, if su is used to switch to root, you will need the root password. This is not feasible in a shared server, wherein sharing the root password to users could be dangerous. Instead 'sudo' makes it easier for users to switch to root using there own password.
+* `su` requires the password of the *target* user, whereas `sudo` requires the password of the user who invoked it. This matters on shared servers, where sharing the root password is dangerous. `sudo` lets users elevate using their own password.
 
-* 'su' invokes a shell, allowing the user to run multiple commands, whereas sudo can be used to execute a single command with elevated privileges.
+* `su` invokes a shell, allowing multiple commands, whereas `sudo` executes a single command with elevated privileges.
 
-* The user who invoked 'sudo' can be tracked, whereas once the user becomes root using 'su', its difficult to identify the user for tracing.
+* The user who invoked `sudo` can be tracked, whereas once someone becomes root via `su`, it's difficult to trace who did what.
 
 ```bash
 [vagrant@localhost ~]$ su
@@ -72,7 +67,7 @@ Password:
 /home/vagrant
 ```
 
-'-', the hyphen argument passed to 'su' will allow the user to create a new environment (usually defined by root's .bashrc), analogous to loggin in directly as root.
+The `-` (hyphen) argument passed to `su` creates a fresh login environment (as defined by root's `.bashrc`), analogous to logging in directly as root.
 
 ```bash
 [vagrant@localhost ~]$ su -
@@ -82,9 +77,9 @@ Last login: Sat May 20 08:43:26 UTC 2017 on pts/0
 /root
 ```
 
-The different methods of becoming root have their primary differences in the $HOME(login directory) and the Environment after the login.
+The different methods of becoming root primarily differ in the `$HOME` directory and the environment they inherit.
 
-The environment of a user is assumed to be defined in its .bashrc.
+A user's environment is typically defined in their `.bashrc`.
 
 | Command | $HOME | Env |
 | :------------- | :------------- |:------------- |
@@ -96,15 +91,15 @@ The environment of a user is assumed to be defined in its .bashrc.
 
 ## Controlling sudo privileges to a user
 
-Any user's sudo privileges are controlled by file /etc/sudoers.
+A user's sudo privileges are controlled by `/etc/sudoers`.
 
-Editing this file directly using vi or any editor is dangerous, a broken sudoers file could mean a broken system (which can be fixed by booting the server in rescue mode)
+Editing this file directly with vi or any editor is dangerous. A broken sudoers file could mean a broken system (fixable only by booting into rescue mode).
 
-> visudo - a utility to edit sudoers file safely with benefit of discarding any changes with incorrect syntax. It also takes a backup of the current file before allowing the user to edit.
+> **visudo** is a utility to edit the sudoers file safely. It validates syntax before saving and discards changes if errors are found.
 
-> Another easy option to have modular control is to add a file with custom privileges for a particular user in /etc/sudoers.d/ directory.
+> Another option is to add a file with custom privileges for a particular user in the `/etc/sudoers.d/` directory.
 
-This is an easy option if a configuration management tools such as chef is used to control the access. Adding a file would be more easy than editing the /etc/sudoers file.
+This is especially convenient when using configuration management tools like Chef, since adding a file is simpler than editing `/etc/sudoers` directly.
 
 The basic syntax in the file would be:
 
@@ -112,8 +107,8 @@ The basic syntax in the file would be:
 USER PLACES=(AS_USER) [NOPASSWD:] COMMAND
 ```
 
-which translates to "USER" can execute "COMMAND" in "PLACES" as "AS_USER" without password.
-Each of these fields can be an aliases to set/group of entities, like User_Alias, Cmnd_Alias etc.
+which translates to: "USER" can execute "COMMAND" in "PLACES" as "AS_USER" without a password.
+Each of these fields can be an alias referring to a group of entities, like `User_Alias`, `Cmnd_Alias`, etc.
 
 Example:
 ```
@@ -123,17 +118,17 @@ User_Alias USERS = tom, dick, harry
 ```
 root ALL=(ALL)  ALL
 ```
-saying, The user root can execute ALL commands as ALL users from ALL places.
+This says: the user root can execute ALL commands as ALL users from ALL places.
 
 ### Some useful flags in sudoers
 
 #### Ever missed the asterisk while entering sudo password?
 
-The asterisk characters while entering sudo password might be helpful when you entered the password wrong and you need to clear the buffer to re-enter. It can be easily enabled by adding a default flag - **pwfeedback**
+Seeing asterisks while typing your sudo password helps you know how many characters you've entered, which is useful for catching mistakes. Enable it with the **pwfeedback** flag.
 
-#### Ever noticed that sudo does not ask password once entered for sometime?
+#### Ever noticed that sudo doesn't ask for your password again for a while?
 
-The default session duration for which the passwords are bypassed once successfully authenticated is 15 minutes. This can be overwritten by a flag - **timestamp_timeout=[value]**, where value is in minutes.
+Once authenticated, sudo remembers your credentials for 15 minutes by default. This can be changed with **timestamp_timeout=[value]**, where value is in minutes.
 
 ```
 [root@layer201 vagrant]# grep 'pwfeedback' /etc/sudoers
@@ -143,5 +138,4 @@ Defaults    env_reset,pwfeedback,timestamp_timeout=10
 Password: *******
 ```
 
-Thats it! Thanking for reading!
-Comment down what you think.
+That's it! Thanks for reading.

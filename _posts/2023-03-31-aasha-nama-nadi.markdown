@@ -2,13 +2,9 @@
 title: "आशा नाम नदी"
 layout: post
 date: 2023-03-31 16:00
-headerImage: false
 tag:
 - sanskrit
 - subhasitam
-category: blog
-type: sanskrit
-author: vasudev
 description: A river called desire
 ---
 
@@ -19,7 +15,7 @@ description: A river called desire
 तस्या: पारगता विशुद्धमनसो नन्दन्ति योगीश्वरा: ॥
 ```
 
-![आशा नाम नदी](https://vasudevb.com/assets/images/sanskrit/aasha_nama_nadi.jpg)
+![आशा नाम नदी](/assets/images/sanskrit/aasha_nama_nadi.jpg)
 
 सुभाषितेषु इदं सुभाषितं प्रायः मम इष्टतमम् । यतः यदाकदापि मम चित्तं किञ्चन वस्तु वा कञ्चिदनुभवं वा इच्छति, तदा एतेन सुभाषिताधारेण इच्छायाः मूलं ज्ञातुं प्रयत्नं करोमि । तेन ज्ञानेन निष्प्रयोजककार्ये दुःखयोनिकर्मणि वा आसक्तिः न्यूना भवति । के परमार्थतः सुखं प्राप्नुवन्ति इत्यस्य सुभषितस्य अभिप्रायं चित्रनिरूपणं च वयम् अत्र पश्यामः ।
 
